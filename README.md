@@ -6,5 +6,5 @@ Each HW assignment has its own folder and files associated with each problem are
 
 ### Contents
 - HW1
--- `p4_run_pliaf.m`
--- `p5_find_rheobase.m` (requires `hh_sim.m`)
+  -  `p4_run_pliaf.m`
+  -   `p5_find_rheobase.m` (requires `hh_sim.m`)
