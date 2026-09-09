@@ -25,10 +25,10 @@ fprintf('Theoretical t_peak = %.4f ms\n', tpeak_theory);
 fprintf('Critical current I0_crit = %.4f\n', Icrit);
 
 
-I0_values = [0.8 1 1.2]*Icrit; % I0 amplitudes in vector
+I0_values = [6 1.0*Icrit 9]; % I0 amplitudes in vector
 
 
-h = 0.01;           % time step (ms)
+h = 0.0001;           % time step (ms)
 tfinal = 50;        % total time (ms)
 t = 0:h:tfinal;
 
@@ -82,7 +82,7 @@ xlabel('t (ms)')
 ylabel('u (mV)')
 title('PLIAF single-neuron voltage')
 
-legend(sprintf('I_0 = %.4f',I0_values(1)), sprintf('I_0 = %.4f',I0_values(2)), sprintf('I_0 = %.4f',I0_values(3)), 'Threshold', 'Location','best')
+legend('I0 < I_0^{crit}', 'I_0 = I_0^{crit}', 'I_0 > I_0^{crit}', 'Threshold', 'Location','best')
 
 grid on
 hold off
@@ -123,8 +123,8 @@ figure
 
 loglog(tau_s_values,Icrit_values,'LineWidth',1.5)
 
-xlabel('\tau_s (ms)')
-ylabel('I_0^{crit}')
+xlabel('log(\tau_s) (ms)')
+ylabel('log(I_0^{crit})')
 title('I_0^{crit} vs. \tau_s')
 
 grid on
