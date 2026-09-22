@@ -9,7 +9,7 @@ Each HW assignment has its own folder and files associated with each problem are
   -  `p4_run_pliaf.m`
   -   `p5_find_rheobase.m` (requires `hh_sim.m`)
 -   HW2
-  - `prob_1c.m`
-  - `prob_2c.m`
-  - `prob_4d.m`
-  - `prob_5c.m`
+  -   `prob_1c.m`
+  -   `prob_2c.m`
+  -   `prob_4d.m`
+  -   `prob_5c.m`
