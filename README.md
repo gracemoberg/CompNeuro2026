@@ -16,4 +16,8 @@ Each HW assignment has its own folder and files associated with each problem are
 - hw3
   -  `prob_1c.m` simulates periodically forced LIF model, plots forced and unforced firing number, marks tongue boundaries
   -  `prob_2c.m` numerically measure PRCs for forced LIF and FHN oscillator
-  -  `prob_4c.m` simulate gap-junction coupled QIF neurons with finite symmetric threshold  
+  -  `prob_4c.m` simulate gap-junction coupled QIF neurons with finite symmetric threshold
+- hw4
+-  `prob_1c.m`
+-  `prob_2d.m`
+-  `prob_3c.m`
