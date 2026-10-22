@@ -18,6 +18,6 @@ Each HW assignment has its own folder and files associated with each problem are
   -  `prob_2c.m` numerically measure PRCs for forced LIF and FHN oscillator
   -  `prob_4c.m` simulate gap-junction coupled QIF neurons with finite symmetric threshold
 - hw4
--  `prob_1c.m`
--  `prob_2d.m`
--  `prob_3c.m`
+  -  `prob_1c.m`
+  -  `prob_2d.m`
+  -  `prob_3c.m`
